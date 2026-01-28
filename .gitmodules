@@ -1,0 +1,15 @@
+[submodule "services/notif-service"]
+	path = services/notif-service
+	url = git@github.com:Shreyas-png/notif-service.git
+[submodule "services/auth-service"]
+	path = services/auth-service
+	url = git@github.com:Shreyas-png/auth-service.git
+[submodule "services/gateway-service"]
+	path = services/gateway-service
+	url = git@github.com:Shreyas-png/gateway-service.git
+[submodule "services/billing-service"]
+	path = services/billing-service
+	url = git@github.com:Shreyas-png/billing-service.git
+[submodule "services/patient-service"]
+	path = services/patient-service
+	url = git@github.com:Shreyas-png/patient-service.git
