@@ -68,27 +68,16 @@ Reactive (non-blocking) via Project Reactor / WebFlux
 
 🛠️ Tech Stack
 Language: Java 17
-
 Framework: Spring Boot 3.x.
-
 Build Tool: Maven(with Maven Wrapper) 
-
 API Gateway: Spring Gateway
-
 Auth & Security: Spring Security + JWT (JJWT 0.12.6)
-
 Inter-service RPC: gRPC 1.69.0 + Protocol Buffers
-
 Async Messaging: Apache Kafka 
-
 Email: Spring Boot Mail (SMTP)
-
 Database: PostgreSQL 
-
 ORM: Spring Data JPA (Hibernate) 
-
 Containerization: Docker 
-
 Utilities: Lombok, Spring Validation
 
 
@@ -101,6 +90,8 @@ Patient-Management-System/
     ├── billing-service/      # Billing (gRPC)
     ├── notif-service/        # Notifications (Kafka + Email)
     └── gateway-service/      # API Gateway (Spring Cloud)
+
+    
 
 🚀 Getting Started
 Prerequisites
