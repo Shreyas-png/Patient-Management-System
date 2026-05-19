@@ -4,23 +4,17 @@ A production-grade, cloud-ready microservices-based Patient Management System bu
 📐 Architecture Overview
 
 The system is composed of 5 independent microservices, each containerized via Docker and communicating through dedicated protocols:
-Client
 
+Client
   │
-  
   ▼
-  
 ┌─────────────────────┐
-│   Gateway Service   │  ← Spring Gateway
+│   Gateway Service   │  ← Spring Cloud Gateway (WebFlux)
 │   (Port: 4004)      │  ← Routes all incoming requests
 └────────┬────────────┘
-
          │
-         
   ┌──────┼──────────────────────┐
-  
   ▼      ▼                      ▼
-  
 Auth   Patient              Billing
 Service Service             Service
 (JWT)  (REST/JPA)          (gRPC Server)
