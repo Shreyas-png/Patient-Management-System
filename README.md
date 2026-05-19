@@ -68,17 +68,29 @@ Reactive (non-blocking) via Project Reactor / WebFlux
 
 🛠️ Tech Stack
 Language: Java 17
-Framework: Spring Boot 3.x. 
+
+Framework: Spring Boot 3.x.
+
 Build Tool: Maven(with Maven Wrapper) 
-API Gateway: Spring Gateway 
+
+API Gateway: Spring Gateway
+
 Auth & Security: Spring Security + JWT (JJWT 0.12.6)
+
 Inter-service RPC: gRPC 1.69.0 + Protocol Buffers
+
 Async Messaging: Apache Kafka 
+
 Email: Spring Boot Mail (SMTP)
+
 Database: PostgreSQL 
+
 ORM: Spring Data JPA (Hibernate) 
+
 Containerization: Docker 
+
 Utilities: Lombok, Spring Validation
+
 
 📁 Repository Structure
 This is a mono-repo with submodules. Each service lives in its own GitHub repository and is registered as a Git submodule under the services/ directory.
