@@ -5,6 +5,7 @@ A production-grade, cloud-ready microservices-based Patient Management System bu
 
 The system is composed of 5 independent microservices, each containerized via Docker and communicating through dedicated protocols:
 Client
+
   │
   ▼
 ┌─────────────────────┐
