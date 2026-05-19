@@ -1,29 +1,11 @@
-<img width="994" height="760" alt="image" src="https://github.com/user-attachments/assets/8ef7c490-ab68-466d-ac24-fedba1453d1b" />🏥 Patient Management System
+🏥 Patient Management System
 A production-grade, cloud-ready microservices-based Patient Management System built with Java 17 and Spring Boot 3.x. The system is designed for scalability, security, and inter-service communication using modern patterns like gRPC, Apache Kafka, and JWT authentication.
 
 📐 Architecture Overview
 
 The system is composed of 5 independent microservices, each containerized via Docker and communicating through dedicated protocols:
 
-Client
-  │
-  ▼
-┌─────────────────────┐
-│   Gateway Service   │  ← Spring Cloud Gateway (WebFlux)
-│   (Port: 4004)      │  ← Routes all incoming requests
-└────────┬────────────┘
-         │
-  ┌──────┼──────────────────────┐
-  ▼      ▼                      ▼
-Auth   Patient              Billing
-Service Service             Service
-(JWT)  (REST/JPA)          (gRPC Server)
-         │
-         │ Kafka Events
-         ▼
-    Notification
-      Service
-   (Email via SMTP)
+<img width="700" height="700" alt="image" src="https://github.com/user-attachments/assets/8ef7c490-ab68-466d-ac24-fedba1453d1b" />
 
 🧩 Services
 1. auth-service
