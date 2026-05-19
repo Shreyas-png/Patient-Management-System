@@ -1,4 +1,4 @@
-🏥 Patient Management System
+<img width="994" height="760" alt="image" src="https://github.com/user-attachments/assets/8ef7c490-ab68-466d-ac24-fedba1453d1b" />🏥 Patient Management System
 A production-grade, cloud-ready microservices-based Patient Management System built with Java 17 and Spring Boot 3.x. The system is designed for scalability, security, and inter-service communication using modern patterns like gRPC, Apache Kafka, and JWT authentication.
 
 📐 Architecture Overview
