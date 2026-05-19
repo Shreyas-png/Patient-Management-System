@@ -194,6 +194,3 @@ The `notif-service` listens on Kafka topics and sends emails using **Spring Boot
 
 ---
 
-## 📄 License
-
-This project is open-source. Feel free to use, modify, and distribute with attribution.
