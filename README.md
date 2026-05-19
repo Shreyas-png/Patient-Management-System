@@ -2,6 +2,7 @@
 A production-grade, cloud-ready microservices-based Patient Management System built with Java 17 and Spring Boot 3.x. The system is designed for scalability, security, and inter-service communication using modern patterns like gRPC, Apache Kafka, and JWT authentication.
 
 📐 Architecture Overview
+
 The system is composed of 5 independent microservices, each containerized via Docker and communicating through dedicated protocols:
 Client
   │
