@@ -7,14 +7,20 @@ The system is composed of 5 independent microservices, each containerized via Do
 Client
 
   │
+  
   ▼
+  
 ┌─────────────────────┐
 │   Gateway Service   │  ← Spring Gateway
 │   (Port: 4004)      │  ← Routes all incoming requests
 └────────┬────────────┘
+
          │
+         
   ┌──────┼──────────────────────┐
+  
   ▼      ▼                      ▼
+  
 Auth   Patient              Billing
 Service Service             Service
 (JWT)  (REST/JPA)          (gRPC Server)
